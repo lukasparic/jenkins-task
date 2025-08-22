@@ -24,6 +24,10 @@ repositories {
   mavenCentral()
 }
 
+jar {
+    enabled = false
+}
+
 ext.checkstyleVersion = "10.25.0"
 ext.springJavaformatCheckstyleVersion = "0.0.46"
 ext.webjarsLocatorLiteVersion = "1.1.0"
