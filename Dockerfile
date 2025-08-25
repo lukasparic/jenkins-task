@@ -24,5 +24,5 @@ COPY --from=builder /app/build/libs/*.jar petclinic.jar
 EXPOSE 8081
 
 
-#test4
+#test5
 CMD [ "java","-jar","petclinic.jar" ]
