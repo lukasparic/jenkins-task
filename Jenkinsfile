@@ -1,8 +1,8 @@
 pipeline {
-  agent { 
-    dockerfile {
-        filename 'Dockerfile.builder'
-    } 
+    agent { 
+        dockerfile {
+            filename 'Dockerfile.builder'
+        } 
     }
   stages {
     stage('Check Tools') {
