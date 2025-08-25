@@ -21,7 +21,7 @@ COPY --from=builder /app/build/libs/*.jar petclinic.jar
 
 #ENV SPRING_PROFILES_ACTIVE=postgres
 
-EXPOSE 8080
+EXPOSE 8081
 
 
 
