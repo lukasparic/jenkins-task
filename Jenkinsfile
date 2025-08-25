@@ -6,9 +6,11 @@ pipeline {
     }
   stages {
     stage('Check Tools') {
-        sh 'java --version'
-        sh 'gradle --version'
-        sh 'docker --version'
+        steps{
+            sh 'java --version'
+            sh 'gradle --version'
+            sh 'docker --version'
+        }
     }
     stage('Test') {
       steps {
