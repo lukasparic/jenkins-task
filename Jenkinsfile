@@ -5,8 +5,6 @@ pipeline {
       steps {
         sh '''
           echo "Hello world"
-          git --version
-          curl --version
         '''
       }
     }
